@@ -22,4 +22,4 @@ The baseline model demonstrated an accuracy of 65%, which improved to 74% after 
 #### Next steps
 While "adj_price" holds substantial predictive power, its nature as a lagging indicator necessitates the inclusion of additional features. Future iterations of the model will focus on integrating more comprehensive datasets to enhance predictive capabilities.
 #### Outline of project
-- [New Haven Real Estate Market Direction](http://localhost:8888/files/Desktop/berkeley/capstone/new_haven_ct_house_price.ipynb?_xsrf=2%7Cedc016e2%7Cfd9b1a3158d3a3bfa1018819cdc91b95%7C1706993883)
+- [New Haven Real Estate Market Direction](https://github.com/teemak/capstone/blob/main/1.%20Exploratory%20Data%20Analysis.ipynb)
