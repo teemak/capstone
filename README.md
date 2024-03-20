@@ -8,7 +8,7 @@ The primary business objective is to determine the best time to buy a single-fam
 The dataset is a comprehensive aggregation from multiple sources, featuring a variety of start dates and reporting frequencies, including weekly and monthly intervals. A crucial component for analysis, the amount of homes listed, presents accessibility challenges. Specifically, Zillow provided listings data for only the past six years.
 
 <div align='center'>
-  <img src='imgs/crisp-dm.jpeg' alt='Dataset' height='500' width='400'/>
+  <img src='imgs/crisp-dm.jpeg' alt='Dataset' height='349' width='327'/>
 </div><br/>
 
 **Real Estate Data**: Sourced from [Zillow](https://www.zillow.com/research/data), this portion of the dataset includes monthly metrics such as home values, prices sold, number of homes listed, median sale price, and price paid above listing. The data is organized into two main categories:
