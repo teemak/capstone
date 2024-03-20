@@ -8,7 +8,7 @@ The primary business objective is to determine the best time to buy a single-fam
 The dataset is a comprehensive aggregation from multiple sources, featuring a variety of start dates and reporting frequencies, including weekly and monthly intervals. A crucial component for analysis, the amount of homes listed, presents accessibility challenges. Specifically, Zillow provided listings data for only the past six years.
 
 <div align='center'>
-  <img src='imgs/crisp-dm.jpeg' alt='Dataset' height='873' width='818'/>
+  <img src='imgs/crisp-dm.jpeg' alt='Dataset' />
 </div><br/>
 
 **Real Estate Data**: Sourced from [Zillow](https://www.zillow.com/research/data), this portion of the dataset includes monthly metrics such as home values, prices sold, number of homes listed, median sale price, and price paid above listing. The data is organized into two main categories:
@@ -18,7 +18,7 @@ The dataset is a comprehensive aggregation from multiple sources, featuring a va
 **Economic Features**: These were derived from two distinct sources. The Federal Reserve Economic Data ([FRED](https://fred.stlouisfed.org/docs/api/fred/)) API provided data spanning the last decade. Conversely, the [MarketWatch](https://www.marketwatch.com/investing/index/spx/download-data) dataset furnished historical data dating back to 1978, in one-year increments.
 
 <div align='center'>
-  <img src='imgs/economic_indicators.png' alt='Economic Features' height='553' width='305'/>
+  <img src='imgs/economic_indicators.png' alt='Economic Features' />
 </div><br/>
 
 **Sentiment Features**: Extracted from [CBS News](https://www.cbsnews.com/news/year-in-review-top-news-stories-of-2018-month-by-month) and [Wikipedia](https://en.wikipedia.org/wiki/2018), these features encompass headlines and global events. The collected data was processed through a pre-trained language model named [TweetEval](https://github.com/cardiffnlp/tweeteval), designed to assess sentiment.
