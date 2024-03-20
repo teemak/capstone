@@ -44,7 +44,7 @@ The dataset is a comprehensive aggregation from multiple sources, featuring a va
 7. **Model Testing Notebook**: Tests various models with different dataframes to identify the most effective approach for predicting real estate trends based on the identified features and sentiments.
 
 ## Findings
-After organizing and examining the data, it became evident when the best times to buy a house are. The real estate market moves in predictable cycles with clear trends. Essentially, the number of homes listed for sale and the number sold each year follow a regular pattern: activity picks up at the beginning of the year, reaches its highest point around the middle of the year, and then slows down as the year ends. If you're looking to have a lot of options to choose from, the middle of the year is when the market is most active. However, if you're trying to get a good deal before prices go up, the start of the year is the optimal time to buy, especially in markets where prices are generally on the rise. Although we only had home listing data for the last six years, we noticed that as the number of homes sold decreased, so did the prices.
+After organizing and examining the data, it became evident when the best times to buy a house are. The real estate market moves in predictable cycles with clear trends. Essentially, the number of homes listed for sale and the number sold each year follow a regular pattern: activity picks up at the beginning of the year, reaches its highest point around the middle of the year, and then slows down as the year ends. If you're looking to have **a lot of options to choose from, the middle of the year is when the market is most active**. However, if you're trying to **get a good deal before prices go up, the start of the year is the optimal time to buy**, especially in markets where prices are generally on the rise. Although we only had home listing data for the last six years, we noticed that as the number of homes sold decreased, so did the prices.
 
 <div align='center'>
   <img src='imgs/real_estate_features.png' alt='Real Estate Features'/>
@@ -56,7 +56,7 @@ The economic indicators for 2018 were a bit unusual due to the Federal Reserve k
   <img src='imgs/interest_rate.png' alt='Interest Rate'/>
 </div><br/>
 
-Regarding market sentiment — the overall feel of the market based on news headlines and global events — it didn't significantly aid the analysis. The data we used in the TweetEval model showed that most news coverage focused on negative or neutral stories, with a significant emphasis on conflicts and wars. For sentiment analysis to provide meaningful insights, a more balanced mix of positive news is needed. However, this poses a challenge, as positive news and events are reported less frequently.
+Regarding market sentiment — the overall feel of the market based on news headlines and global events — it didn't significantly aid the analysis. The data used in the TweetEval model showed that most news coverage focused on negative or neutral stories, with a significant emphasis on conflicts and wars. For sentiment analysis to provide meaningful insights, a more balanced mix of positive news is needed. However, this poses a challenge, as positive news and events are reported less frequently.
 
 <div align='center'>
   <img src='imgs/sentiment_2018.png' alt='Global Sentiment'/>
@@ -69,4 +69,4 @@ Enhancing the depth and usefulness of the real estate data could be achieved by 
 Regarding the primary business question of identifying the optimal time to purchase a home, it appears that a complex machine learning model or neural network is not necessary to predict price movements. The dynamics of the real estate market, governed by supply and demand, clearly illustrate that as the housing supply dwindles, home prices tend to rise. For value-conscious buyers, the beginning of the year is identified as the ideal time to make a purchase, capitalizing on potentially lower prices. Conversely, buyers seeking a wider selection of homes might find it advantageous to wait until mid-year, as the market typically offers more choices at that time.
 
 ## Link to Notebook
-- [New Haven Real Estate Models](https://github.com/teemak/capstone/blob/main/7_find_best_model.ipynb)
+[New Haven Real Estate Models](https://github.com/teemak/capstone/blob/main/7_find_best_model.ipynb)
