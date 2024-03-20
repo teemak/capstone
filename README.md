@@ -69,4 +69,4 @@ Enhancing the depth and usefulness of the real estate data could be achieved by 
 Regarding the primary business question of identifying the optimal time to purchase a home, it appears that a complex machine learning model or neural network is not necessary to predict price movements. The dynamics of the real estate market, governed by supply and demand, clearly illustrate that as the housing supply dwindles, home prices tend to rise. For value-conscious buyers, the beginning of the year is identified as the ideal time to make a purchase, capitalizing on potentially lower prices. Conversely, buyers seeking a wider selection of homes might find it advantageous to wait until mid-year, as the market typically offers more choices at that time.
 
 ## Link to Notebook
-- [New Haven Real Estate Models](https://github.com/teemak/capstone/blob/main/7_find_best_model.ipynb)
+[New Haven Real Estate Models](https://github.com/teemak/capstone/blob/main/7_find_best_model.ipynb)
