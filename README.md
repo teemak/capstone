@@ -15,10 +15,10 @@ The dataset is a comprehensive aggregation from multiple sources, featuring a va
 * A single dataframe aggregating all mentioned features, segmented by county.
 * Separate dataframes for each county, detailing the specific features relevant to that county.
 
-**Economic Features**: These were derived from two distinct sources. The Federal Reserve Economic Data ([FRED](https://fred.stlouisfed.org/docs/api/fred/)) API provided data spanning the last decade. Conversely, the [MarketWatch](https://www.marketwatch.com/investing/index/spx/download-data) dataset furnished historical data dating back to 1978, albeit in one-year increments.
+**Economic Features**: These were derived from two distinct sources. The Federal Reserve Economic Data ([FRED](https://fred.stlouisfed.org/docs/api/fred/)) API provided data spanning the last decade. Conversely, the [MarketWatch](https://www.marketwatch.com/investing/index/spx/download-data) dataset furnished historical data dating back to 1978, in one-year increments.
 
 <div align='center'>
-  <img src='imgs/economic_indicators.png' alt='Economic Features' height='400' width='500'/>
+  <img src='imgs/economic_indicators.png' alt='Economic Features' height='553' width='305'/>
 </div><br/>
 
 **Sentiment Features**: Extracted from [CBS News](https://www.cbsnews.com/news/year-in-review-top-news-stories-of-2018-month-by-month) and [Wikipedia](https://en.wikipedia.org/wiki/2018), these features encompass headlines and global events. The collected data was processed through a pre-trained language model named [TweetEval](https://github.com/cardiffnlp/tweeteval), designed to assess sentiment.
@@ -47,19 +47,19 @@ The dataset is a comprehensive aggregation from multiple sources, featuring a va
 After organizing and examining the data, it became evident when the best times to buy a house are. The real estate market moves in predictable cycles with clear trends. Essentially, the number of homes listed for sale and the number sold each year follow a regular pattern: activity picks up at the beginning of the year, reaches its highest point around the middle of the year, and then slows down as the year ends. If you're looking to have a lot of options to choose from, the middle of the year is when the market is most active. However, if you're trying to get a good deal before prices go up, the start of the year is the optimal time to buy, especially in markets where prices are generally on the rise. Although we only had home listing data for the last six years, we noticed that as the number of homes sold decreased, so did the prices.
 
 <div align='center'>
-  <img src='imgs/real_estate_features.png' alt='Real Estate Features' height='400' width='500'/>
+  <img src='imgs/real_estate_features.png' alt='Real Estate Features'/>
 </div><br/>
 
 The economic indicators for 2018 were a bit unusual due to the Federal Reserve keeping interest rates exceptionally low for about eight years. Just as they began to raise rates, the COVID-19 pandemic occurred, distorting the data even further. The unemployment rate soared to its highest in 40 years, topping 14%.
 
 <div align='center'>
-  <img src='imgs/interest_rate.png' alt='Interest Rate' height='400' width='500'/>
+  <img src='imgs/interest_rate.png' alt='Interest Rate'/>
 </div><br/>
 
 Regarding market sentiment — the overall feel of the market based on news headlines and global events — it didn't significantly aid the analysis. The data we used in the TweetEval model showed that most news coverage focused on negative or neutral stories, with a significant emphasis on conflicts and wars. For sentiment analysis to provide meaningful insights, a more balanced mix of positive news is needed. However, this poses a challenge, as positive news and events are reported less frequently.
 
 <div align='center'>
-  <img src='imgs/sentiment_2018.png' alt='Global Sentiment' height='400' width='500'/>
+  <img src='imgs/sentiment_2018.png' alt='Global Sentiment'/>
 </div><br/>
 
 
