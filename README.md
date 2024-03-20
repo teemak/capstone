@@ -43,7 +43,7 @@ The dataset is a comprehensive aggregation from multiple sources, featuring a va
 6. **Global Sentiment Indicator Notebook**: Processes the scraped Wikipedia events through the [TweetEval](https://github.com/cardiffnlp/tweeteval) model to evaluate global sentiment. This analysis aims to understand the broader sentiment trends that may impact the real estate market.
 7. **Model Testing Notebook**: Tests various models with different dataframes to identify the most effective approach for predicting real estate trends based on the identified features and sentiments.
 
-## Findings
+## Summary of Findings
 After organizing and examining the data, it became evident when the best times to buy a house are. The real estate market moves in predictable cycles with clear trends. Essentially, the number of homes listed for sale and the number sold each year follow a regular pattern: activity picks up at the beginning of the year, reaches its highest point around the middle of the year, and then slows down as the year ends. If you're looking to have **a lot of options to choose from, the middle of the year is when the market is most active**. However, if you're trying to **get a good deal before prices go up, the start of the year is the optimal time to buy**, especially in markets where prices are generally on the rise. Although we only had home listing data for the last six years, we noticed that as the number of homes sold decreased, so did the prices.
 
 <div align='center'>
