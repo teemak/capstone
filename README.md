@@ -56,7 +56,7 @@ The economic indicators for 2018 were a bit unusual due to the Federal Reserve k
   <img src='imgs/interest_rate.png' alt='Interest Rate'/>
 </div><br/>
 
-Regarding market sentiment — the overall feel of the market based on news headlines and global events — it didn't significantly aid the analysis. The data used in the TweetEval model showed that most news coverage focused on negative or neutral stories, with a significant emphasis on conflicts and wars. For sentiment analysis to provide meaningful insights, a more balanced mix of positive news is needed. However, this poses a challenge, as positive news and events are reported less frequently.
+Regarding market sentiment — the overall feel of the market based on news headlines and global events — it didn't significantly aid the analysis. The data used in the TweetEval model showed that most news coverage focused on negative or neutral stories, with a significant emphasis on Covid and conflicts. For sentiment analysis to provide meaningful insights, a more balanced mix of positive news is needed. However, this poses a challenge, as positive news and events are reported less frequently.
 
 <div align='center'>
   <img src='imgs/wordcloud.png' alt='Sentiment Word Cloud'/>
